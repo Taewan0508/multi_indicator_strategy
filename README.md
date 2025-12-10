@@ -63,7 +63,7 @@ The strategy combines:
 
 A major learning outcome from this project:
 
-**A strategy failing on the tickers you tested does not mean the strategy itself is bad — it may simply be mismatched to the assets.**
+**A strategy failing on the tickers you tested does not mean the strategy itself is bad, it may simply be mismatched to the assets.**
 
 Different tickers have different structural behaviors:
 
@@ -88,7 +88,9 @@ Different tickers have different structural behaviors:
 Because of these behavioral differences:
 
 A **momentum signal** on a choppy stock will **fail**.
+
 An **RSI mean-reversion signal** on a strongly trending asset will **fail**.
+
 A **regime filter** helps, but cannot compensate for structural mismatch.
 
 ## 📌 Core Conclusion
